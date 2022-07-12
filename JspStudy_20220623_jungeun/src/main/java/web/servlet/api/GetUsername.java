@@ -72,7 +72,7 @@ public class GetUsername extends HttpServlet {
 	@Override
 	protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		System.out.println("Put요청 들어옴");
-		System.out.println("Uptate");
+		System.out.println("Update");
 	}
 	
 	

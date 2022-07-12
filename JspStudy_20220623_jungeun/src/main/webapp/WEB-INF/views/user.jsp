@@ -18,7 +18,7 @@
 	<input type="text" value ="${name}">
 	<%--${} -> EL표현식으로 쓰는 이유? get, set, 다운캐스팅 필요 없다 / getattribute랑 같다--%>
 	
-	<%--선언되지 않는 객체  ex) request , response : JSP내장 객체 --%>
+	<%-- 선언되지 않는 객체  ex) request , response : JSP내장 객체 --%>
 	<%--M : Model (값, 데이터)
 		V : View(JSP)
 		C : Controller(Servlet)
